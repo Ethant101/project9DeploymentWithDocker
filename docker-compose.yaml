@@ -1,0 +1,7 @@
+docker-hello:
+  image: docker-hello
+  ports:
+    - "8080:3000"
+  environment:
+    - MY_FIRST_NAME="Ethan"
+    - MY_LAST_NAME="Thompson"
